@@ -5,7 +5,7 @@ from typing import Optional, Dict
 
 class StreamlitAuth:
     def __init__(self):
-        self.validator = StreamlitJWTValidator()
+        self.validator = JWTValidator()
         self._initialize_session_state()
 
     def _initialize_session_state(self):
