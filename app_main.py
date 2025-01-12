@@ -1,5 +1,5 @@
 import streamlit as st
-from token_validator import StreamlitJWTValidator
+from token_validator import JWTValidator
 import os
 from typing import Optional, Dict
 
